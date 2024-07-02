@@ -16,7 +16,7 @@
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram)](https://t.me/pythontelegrambotchannel)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram)](https://telegram.me/pythontelegrambotgroup)
 
-
+ 
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
 ![Deskripsi Gambar](images/p_judul.webp) 
