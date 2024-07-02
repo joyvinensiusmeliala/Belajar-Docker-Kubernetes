@@ -127,7 +127,9 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ##### - Verifikasi instalasi kubectl dengan memeriksa versi:
 
 ```sh
-kubectl version --client
+kubectl version
 ```
+
+![Deskripsi Gambar](images/k-version.png)
 
 ##### Perintah di atas akan menampilkan versi kubectl yang diinstal. Jika instalasi berhasil, Anda seharusnya melihat output yang mencantumkan versi kubectl yang telah diinstal.
