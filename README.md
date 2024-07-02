@@ -1,6 +1,6 @@
 ![Kubernetes setup Logo](images/logo.png) 
 
-[![PyPi Package Version](https://img.shields.io/pypi/v/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
+[![Docker ce Install Version](https://img.shields.io/badge/docker.ce-ubuntu-red?style=flat)](https://docs.docker.com/engine/install/ubuntu/)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
 [![Supported Bot API versions](https://img.shields.io/badge/Bot%20API-6.9-blue?logo=telegram)](https://core.telegram.org/bots/api-changelog)
 [![PyPi Package Monthly Download](https://img.shields.io/pypi/dm/python-telegram-bot)](https://pypistats.org/packages/python-telegram-bot)
