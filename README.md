@@ -1,3 +1,24 @@
+# Make sure to apply any changes to this file to README_RAW.md as well!
+
+![python-telegram-bot Logo](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png)
+
+[![PyPi Package Version](https://img.shields.io/pypi/v/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
+[![Supported Bot API versions](https://img.shields.io/badge/Bot%20API-6.9-blue?logo=telegram)](https://core.telegram.org/bots/api-changelog)
+[![PyPi Package Monthly Download](https://img.shields.io/pypi/dm/python-telegram-bot)](https://pypistats.org/packages/python-telegram-bot)
+[![Documentation Status](https://readthedocs.org/projects/python-telegram-bot/badge/?version=stable)](https://docs.python-telegram-bot.org/en/stable/)
+[![LGPLv3 License](https://img.shields.io/pypi/l/python-telegram-bot.svg)](https://www.gnu.org/licenses/lgpl-3.0.html)
+[![Github Actions workflow](https://github.com/python-telegram-bot/python-telegram-bot/workflows/Unit%20Tests/badge.svg)](https://github.com/python-telegram-bot/python-telegram-bot/)
+[![Code coverage](https://codecov.io/gh/python-telegram-bot/python-telegram-bot/branch/master/graph/badge.svg)](https://app.codecov.io/gh/python-telegram-bot/python-telegram-bot)
+[![Median time to resolve an issue](https://isitmaintained.com/badge/resolution/python-telegram-bot/python-telegram-bot.svg)](https://isitmaintained.com/project/python-telegram-bot/python-telegram-bot)
+[![Code quality: Codacy](https://api.codacy.com/project/badge/Grade/99d901eaa09b44b4819aec05c330c968)](https://app.codacy.com/gh/python-telegram-bot/python-telegram-bot/dashboard)
+[![Code quality: DeepSource](https://app.deepsource.com/gh/python-telegram-bot/python-telegram-bot.svg/?label=active+issues)](https://app.deepsource.com/gh/python-telegram-bot/python-telegram-bot/?ref=repository-badge)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/python-telegram-bot/python-telegram-bot/master.svg)](https://results.pre-commit.ci/latest/github/python-telegram-bot/python-telegram-bot/master)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram)](https://t.me/pythontelegrambotchannel)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram)](https://telegram.me/pythontelegrambotgroup)
+
+
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
 ![Deskripsi Gambar](images/p_judul.webp) 
