@@ -78,6 +78,7 @@ wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd6
 #### 2. Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
 
 ```sh
+sudo mkdir /usr/local/bin/minikube
 sudo cp minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
