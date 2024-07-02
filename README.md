@@ -79,7 +79,7 @@ wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd6
 
 ```sh
 sudo mkdir /usr/local/bin/minikube
-sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+sudo cp /home/admin-minikube/minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
 #### 3. Beri file tersebut izin eksekutif menggunakan perintah chmod:
