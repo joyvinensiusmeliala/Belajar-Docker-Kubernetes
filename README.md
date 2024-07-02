@@ -8,7 +8,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/kubernetes/minikube?include_prereleases)](https://github.com/kubernetes/minikube/releases/latest)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/5015/badge)](https://www.bestpractices.dev/en/projects/5015)
  
-# Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
+# Kubectl and Minikube on Ubuntu 22.04 LTS
 
 
 ### Syarat Kebutuhan Minimum
