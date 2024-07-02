@@ -144,6 +144,8 @@ kubectl version
 minikube start --driver=docker
 ```
 
+![Deskripsi Gambar](images/error-kube.png)
+
 ##### Perintah di atas akan memulai Minikube dengan menggunakan Docker sebagai driver untuk menjalankan node Kubernetes di dalam container Docker.
 ##### Pastikan Docker sudah terinstal dan berjalan di sistem Anda sebelum memulai Minikube.
 
