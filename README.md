@@ -24,7 +24,7 @@
 ##### Penyimpanan:
 - **Minimum:** 20 GB penyimpanan kosong
 - **Disarankan:** 40 GB penyimpanan kosong atau lebih
-
+#
 ##### Sebelum menginstal perangkat lunak apa pun, Anda perlu memperbarui dan meningkatkan sistem yang Anda gunakan. Untuk melakukannya, jalankan perintah berikut:
 
 ```sh
