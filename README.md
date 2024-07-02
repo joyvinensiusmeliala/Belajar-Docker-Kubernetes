@@ -10,6 +10,7 @@
  
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
+
 ### Syarat Kebutuhan Minimum
 
 ##### CPU:
