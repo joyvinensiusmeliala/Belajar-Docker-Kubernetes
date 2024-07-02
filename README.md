@@ -119,3 +119,13 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 
 ##### Perintah ini akan mengunduh binary kubectl terbaru sesuai dengan versi stabil Kubernetes untuk arsitektur AMD64.
+
+### Langkah 3: Verifikasi instalasi
+
+##### - Verifikasi instalasi kubectl dengan memeriksa versi:
+
+```sh
+kubectl version --client
+```
+
+##### Perintah di atas akan menampilkan versi kubectl yang diinstal. Jika instalasi berhasil, Anda seharusnya melihat output yang mencantumkan versi kubectl yang telah diinstal.
