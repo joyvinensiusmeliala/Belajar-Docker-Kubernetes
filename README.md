@@ -3,6 +3,7 @@
 [![OS Ubuntu Download](https://img.shields.io/badge/ubuntu-v.22.04TLS-blue?style=flat)](https://releases.ubuntu.com/jammy/)
 [![Docker ce Install Version](https://img.shields.io/badge/docker.ce-ubuntu-red?style=flat)](https://docs.docker.com/engine/install/ubuntu/)
 [![Minikube Github Releases](https://img.shields.io/badge/minikube-installation-green?style=flat)](https://minikube.sigs.k8s.io/docs/)
+[![Kubectl Releases](https://img.shields.io/badge/kubectl-installation-green?style=flat)](https://kubernetes.io/docs/tasks/tools/)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kubernetes/minikube/badge)](https://api.securityscorecards.dev/projects/github.com/kubernetes/minikube)
 [![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total.svg)](https://github.com/kubernetes/minikube/releases/latest)
 [![Latest Release](https://img.shields.io/github/v/release/kubernetes/minikube?include_prereleases)](https://github.com/kubernetes/minikube/releases/latest)
