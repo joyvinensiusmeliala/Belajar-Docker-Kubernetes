@@ -95,3 +95,5 @@ sudo chmod 755 /usr/local/bin/minikube-linux-amd64
 ```sh
 minikube version
 ``` 
+
+![Deskripsi Gambar](images/m-version.png)
