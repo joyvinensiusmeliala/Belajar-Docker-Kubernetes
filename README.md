@@ -65,6 +65,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
+![Deskripsi Gambar](images/h-world.png)
+
 ## Install Docker Engine
 
 #### 1. Unduh binary Minikube terbaru menggunakan perintah wget:
