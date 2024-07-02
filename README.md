@@ -78,14 +78,16 @@ wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd6
 #### 2. Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
 
 ```sh
-sudo mkdir /usr/local/bin/minikube
-sudo cp /home/admin-minikube/minikube-linux-amd64 /usr/local/bin/minikube
+sudo cp /home/admin-minikube/minikube-linux-amd64 /usr/local/bin
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
+
+![Deskripsi Gambar](images/m-version.png)
 
 #### 3. Beri file tersebut izin eksekutif menggunakan perintah chmod:
 
 ```sh
-sudo chmod 755 /usr/local/bin/minikube
+sudo chmod 755 /usr/local/bin/minikube-linux-amd64
 ```
 
 #### 4. Verifikasi bahwa Anda telah berhasil menginstal Minikube dengan memeriksa versi perangkat lunaknya:
