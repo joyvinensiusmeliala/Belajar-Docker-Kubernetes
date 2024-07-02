@@ -133,3 +133,23 @@ kubectl version
 ![Deskripsi Gambar](images/k-version.png)
 
 ##### Perintah di atas akan menampilkan versi kubectl yang diinstal. Jika instalasi berhasil, Anda seharusnya melihat output yang mencantumkan versi kubectl yang telah diinstal.
+
+## Starting Minikube with Docker Driver
+
+#### Sekarang kita akan memulai sebuah cluster Minikube menggunakan driver Docker. Berikut langkah-langkahnya:
+
+### Langkah 1: Mulai Minikube dengan Docker Driver:
+
+```sh
+minikube start --driver=docker
+```
+
+##### Perintah di atas akan memulai Minikube dengan menggunakan Docker sebagai driver untuk menjalankan node Kubernetes di dalam container Docker.
+##### Pastikan Docker sudah terinstal dan berjalan di sistem Anda sebelum memulai Minikube.
+
+### Langkah 2: Verifikasi Status Minikube:
+
+```sh
+minikube status
+```
+##### Perintah ini akan memberikan informasi tentang status dan konfigurasi dari cluster Minikube yang sedang berjalan.
