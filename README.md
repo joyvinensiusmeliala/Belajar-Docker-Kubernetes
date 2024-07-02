@@ -1,4 +1,4 @@
-# Belajar-Kubernetes
+# Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
 ##### Sebelum menginstal perangkat lunak apa pun, Anda perlu memperbarui dan meningkatkan sistem yang Anda gunakan. Untuk melakukannya, jalankan perintah berikut:
 
@@ -167,7 +167,7 @@ minikube start --driver=docker
 ### Langkah 2: Verifikasi Status Minikube:
 
 ```sh
-minikube status
+minikube verison
 ```
 
 ##### Perintah ini akan memberikan informasi tentang status dan konfigurasi dari cluster Minikube yang sedang berjalan.
