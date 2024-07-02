@@ -10,15 +10,15 @@
  
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
-## CPU:
+##### CPU:
 - **Minimum:** 2 core CPU
 - **Disarankan:** 4 core CPU atau lebih
 
-## RAM:
+##### RAM:
 - **Minimum:** 2 GB RAM
 - **Disarankan:** 4 GB RAM atau lebih
 
-## Penyimpanan:
+##### Penyimpanan:
 - **Minimum:** 20 GB penyimpanan kosong
 - **Disarankan:** 40 GB penyimpanan kosong atau lebih
 
