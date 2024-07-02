@@ -10,6 +10,8 @@
  
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
+#### Syarat Kebutuhan Minimum
+
 ##### CPU:
 - **Minimum:** 2 core CPU
 - **Disarankan:** 4 core CPU atau lebih
