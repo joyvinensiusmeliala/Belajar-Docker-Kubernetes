@@ -1,6 +1,6 @@
 ![Kubernetes setup Logo](images/logo.png) 
 
-[![OS Ubuntu Download](https://img.shields.io/pypi/pyversions/python-telegram-bot.svg)](https://releases.ubuntu.com/jammy/)
+[![OS Ubuntu Download](https://img.shields.io/badge/ubuntu-v.22.04TLS-blue?style=flat)](https://releases.ubuntu.com/jammy/)
 [![Docker ce Install Version](https://img.shields.io/badge/docker.ce-ubuntu-red?style=flat)](https://docs.docker.com/engine/install/ubuntu/)
 [![Supported Bot API versions](https://img.shields.io/badge/Bot%20API-6.9-blue?logo=telegram)](https://core.telegram.org/bots/api-changelog)
 [![PyPi Package Monthly Download](https://img.shields.io/pypi/dm/python-telegram-bot)](https://pypistats.org/packages/python-telegram-bot)
