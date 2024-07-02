@@ -44,48 +44,48 @@ $(. /etc/os-release && echo $VERSION_CODENAME) stable" | \
 sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-### Install Docker Engine
+## Install Docker Engine
 
-#### Perbarui indeks paket apt:
+#### 1. Perbarui indeks paket apt:
 
 ```sh
 sudo apt-get update
 ```
 
-#### Instal Docker Engine, containerd, dan Docker Compose:
+#### 2. Instal Docker Engine, containerd, dan Docker Compose:
 
 ```sh
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-#### Verifikasi bahwa instalasi Docker Engine berhasil dengan menjalankan gambar hello-world:
+#### 3. Verifikasi bahwa instalasi Docker Engine berhasil dengan menjalankan gambar hello-world:
 
 ```sh
 sudo docker run hello-world
 ```
 
-### Install Docker Engine
+## Install Docker Engine
 
-#### Unduh binary Minikube terbaru menggunakan perintah wget:
+#### 1. Unduh binary Minikube terbaru menggunakan perintah wget:
 
 ```sh
 wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 ```
 
-#### Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
+#### 2. Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
 
 ```sh
 sudo cp minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-#### Beri file tersebut izin eksekutif menggunakan perintah chmod:
+#### 3. Beri file tersebut izin eksekutif menggunakan perintah chmod:
 
 ```sh
 sudo chmod 755 /usr/local/bin/minikube
 ```
 
-#### Verifikasi bahwa Anda telah berhasil menginstal Minikube dengan memeriksa versi perangkat lunaknya:
+#### 4. Verifikasi bahwa Anda telah berhasil menginstal Minikube dengan memeriksa versi perangkat lunaknya:
 
 ```sh
 minikube version
-```
+``` 
