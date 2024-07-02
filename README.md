@@ -1,4 +1,4 @@
-![python-telegram-bot Logo](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png)
+![Kubernetes setup Logo](images/logo.png) 
 
 [![PyPi Package Version](https://img.shields.io/pypi/v/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
