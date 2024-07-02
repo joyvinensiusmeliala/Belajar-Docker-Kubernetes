@@ -105,8 +105,10 @@ minikube version
 ##### - Unduh binary kubectl dengan curl:
 
 ```sh
-curl -LO "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo curl -LO "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
+
+![Deskripsi Gambar](images/kube.png)
 
 ##### Perintah ini akan mengunduh binary kubectl terbaru sesuai dengan versi stabil Kubernetes untuk arsitektur AMD64.
 
