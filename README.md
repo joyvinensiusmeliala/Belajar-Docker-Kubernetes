@@ -138,13 +138,28 @@ kubectl version
 
 #### Sekarang kita akan memulai sebuah cluster Minikube menggunakan driver Docker. Berikut langkah-langkahnya:
 
-### Langkah 1: Mulai Minikube dengan Docker Driver:
+### Langkah 1: Tambahkan pengguna Anda ke grup 'docker':
+
+##### Jalankan perintah berikut untuk menambahkan pengguna Anda ke grup 'docker':
+
+```sh
+sudo usermod -aG docker $USER 
+```
+
+### Langkah 2: Penerapan perubahan group:
+
+##### Jalankan newgrp docker untuk menerapkan perubahan grup tanpa logout:
+
+```sh
+newgrp docker 
+```
+
+### Langkah 3: Mulai Minikube dengan Docker Driver:
 
 ```sh
 minikube start --driver=docker
 ```
-
-![Deskripsi Gambar](images/error-kube.png)
+![Deskripsi Gambar](images/mkube-start.png) 
 
 ##### Perintah di atas akan memulai Minikube dengan menggunakan Docker sebagai driver untuk menjalankan node Kubernetes di dalam container Docker.
 ##### Pastikan Docker sudah terinstal dan berjalan di sistem Anda sebelum memulai Minikube.
@@ -154,4 +169,7 @@ minikube start --driver=docker
 ```sh
 minikube status
 ```
+
 ##### Perintah ini akan memberikan informasi tentang status dan konfigurasi dari cluster Minikube yang sedang berjalan.
+
+![Deskripsi Gambar](images/mkube-version.png) 
