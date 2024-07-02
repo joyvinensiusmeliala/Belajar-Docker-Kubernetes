@@ -14,7 +14,9 @@ sudo apt-get install curl
 sudo apt-get install apt-transport-https
 ```
 
-## Install Docker 
+## Install Menggunakan `apt` repository
+
+##### Sebelum Anda menginstal Docker Engine untuk pertama kalinya pada mesin baru, Anda perlu mengatur repositori Docker. Setelah itu, Anda dapat menginstal dan memperbarui Docker dari repositori tersebut.
 
 ### Setup Repository 
 
@@ -40,4 +42,50 @@ echo \
 "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
 $(. /etc/os-release && echo $VERSION_CODENAME) stable" | \
 sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+### Install Docker Engine
+
+#### Perbarui indeks paket apt:
+
+```sh
+sudo apt-get update
+```
+
+#### Instal Docker Engine, containerd, dan Docker Compose:
+
+```sh
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+#### Verifikasi bahwa instalasi Docker Engine berhasil dengan menjalankan gambar hello-world:
+
+```sh
+sudo docker run hello-world
+```
+
+### Install Docker Engine
+
+#### Unduh binary Minikube terbaru menggunakan perintah wget:
+
+```sh
+wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+```
+
+#### Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
+
+```sh
+sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+```
+
+#### Beri file tersebut izin eksekutif menggunakan perintah chmod:
+
+```sh
+sudo chmod 755 /usr/local/bin/minikube
+```
+
+#### Verifikasi bahwa Anda telah berhasil menginstal Minikube dengan memeriksa versi perangkat lunaknya:
+
+```sh
+minikube version
 ```
