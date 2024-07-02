@@ -72,7 +72,7 @@ sudo docker run hello-world
 #### 1. Unduh binary Minikube terbaru menggunakan perintah wget:
 
 ```sh
-wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 -P ~/
 ```
 
 #### 2. Salin file yang diunduh dan simpan ke direktori /usr/local/bin/minikube:
