@@ -13,3 +13,9 @@ sudo apt-get upgrade -y
 sudo apt-get install curl
 sudo apt-get install apt-transport-https
 ```
+
+## Install Docker 
+
+### Setup Repository 
+
+#### 1. Set up Docker's apt repository.
