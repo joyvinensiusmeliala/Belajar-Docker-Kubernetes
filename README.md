@@ -19,8 +19,6 @@
  
 # Setup Kubernetes kubectl and Minikube on Ubuntu 22.04 LTS
 
-![Deskripsi Gambar](images/p_judul.webp) 
-
 ##### Sebelum menginstal perangkat lunak apa pun, Anda perlu memperbarui dan meningkatkan sistem yang Anda gunakan. Untuk melakukannya, jalankan perintah berikut:
 
 ```sh
