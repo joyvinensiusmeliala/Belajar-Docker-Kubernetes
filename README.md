@@ -102,7 +102,7 @@ minikube version
 
 ### Langkah 1: Unduh kubectl
 
-##### Unduh binary kubectl dengan curl:
+##### - Unduh binary kubectl dengan curl:
 
 ```sh
 curl -LO "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
@@ -112,7 +112,7 @@ curl -LO "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.
 
 ### Langkah 2: Instalasi kubectl
 
-##### Pindahkan binary kubectl ke direktori /usr/local/bin/ dan beri izin eksekutif:
+##### - Pindahkan binary kubectl ke direktori /usr/local/bin/ dan beri izin eksekutif:
 
 ```sh
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
