@@ -1,5 +1,3 @@
-# Make sure to apply any changes to this file to README_RAW.md as well!
-
 ![python-telegram-bot Logo](https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png)
 
 [![PyPi Package Version](https://img.shields.io/pypi/v/python-telegram-bot.svg)](https://pypi.org/project/python-telegram-bot/)
