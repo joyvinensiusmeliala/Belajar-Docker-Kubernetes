@@ -13,7 +13,7 @@
 
 
 ### Syarat Kebutuhan Minimum
-
+ ß 
 ##### CPU:
 - **Minimum:** 2 core CPU
 - **Disarankan:** 4 core CPU atau lebih
