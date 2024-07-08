@@ -33,7 +33,7 @@ kubectl get pod
 
 ### Langkah 3: Expose Deployment sebagai Service
 
-#### Langkah berikutnya adalah mengekspos deployment sebagai sebuah service yang bisa diakses dari luar kluster Kubernetes:
+##### Langkah berikutnya adalah mengekspos deployment sebagai sebuah service yang bisa diakses dari luar kluster Kubernetes:
 
 ```sh
 kubectl expose deployment nginx --type=NodePort --port=80
@@ -41,24 +41,29 @@ kubectl expose deployment nginx --type=NodePort --port=80
 
 ![Deskripsi Gambar](images/k-expose.png)
 
-#### Saya kemudian mengecek daftar service yang tersedia untuk memastikan service tersebut sudah terdaftar:
+##### Saya kemudian mengecek daftar service yang tersedia untuk memastikan service tersebut sudah terdaftar:
 
 ```sh
 kubectl get services
 ```
 
+![Deskripsi Gambar](images/k-get-service.png)
+
 ### Langkah 4: Mengakses Service
 
-#### Terakhir, saya menggunakan Minikube untuk mendapatkan URL yang bisa digunakan untuk mengakses service Nginx:
+##### Terakhir, saya menggunakan Minikube untuk mendapatkan URL yang bisa digunakan untuk mengakses service Nginx:
 
 ```sh
 minikube service nginx --url
 ```
 
-#### Hasilnya adalah URL yang bisa saya gunakan untuk mengakses server Nginx dari browser atau alat lain:
+##### Hasilnya adalah URL yang bisa saya gunakan untuk mengakses server Nginx dari browser atau alat lain:
 
 ```sh
 http://192.168.49.2:31727
 ```
+
+![Deskripsi Gambar](images/nginx.jpg)
+
 
 
