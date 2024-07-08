@@ -17,6 +17,16 @@ kubectl create deployment nginx --image=nginx
 kubectl get deployment
 ``` 
 
-![Deskripsi Gambar](images/create-pod.png)
+![Deskripsi Gambar](images/k-get-deploy.png)
 
 ##### Hasilnya menunjukkan bahwa deployment sudah berhasil dibuat, tetapi pod masih dalam status ContainerCreating.
+
+### Langkah 2: Mengecek Status Pod
+
+##### Saya mengecek status pod yang baru saja dibuat menggunakan perintah:
+
+```sh
+kubectl get pod
+``` 
+
+![Deskripsi Gambar](images/k-get-pod.png)
