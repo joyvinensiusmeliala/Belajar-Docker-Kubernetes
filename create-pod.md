@@ -57,6 +57,8 @@ kubectl get services
 minikube service nginx --url
 ```
 
+![Deskripsi Gambar](images/m-service-nginx.png)
+
 ##### Hasilnya adalah URL yang bisa saya gunakan untuk mengakses server Nginx dari browser atau alat lain:
 
 ```sh
