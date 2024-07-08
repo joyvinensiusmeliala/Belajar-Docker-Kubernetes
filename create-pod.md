@@ -30,3 +30,13 @@ kubectl get pod
 ``` 
 
 ![Deskripsi Gambar](images/k-get-pod.png)
+
+### Langkah 3: Expose Deployment sebagai Service
+
+#### Langkah berikutnya adalah mengekspos deployment sebagai sebuah service yang bisa diakses dari luar kluster Kubernetes:
+
+```sh
+kubectl expose deployment nginx --type=NodePort --port=80
+``` 
+
+![Deskripsi Gambar](images/k-expose.png)
