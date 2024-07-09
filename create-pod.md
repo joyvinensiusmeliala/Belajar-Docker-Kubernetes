@@ -67,9 +67,9 @@ http://192.168.49.2:31727
 
 ![Service NGINX URL](images/nginx.jpg)
 
-### Langkah 5: Delete Service
+### Langkah 5: Menghapus Service dan Deployment
 
-##### Delete service nginx
+##### Setelah selesai menguji, saya menghapus service dan deployment yang telah dibuat untuk menjaga lingkungan tetap bersih. Langkah pertama adalah menghapus service:
 
 ```sh
 kubectl delete service nginx
@@ -77,3 +77,31 @@ kubectl delete service nginx
 
 ![Delete Service NGINX](images/k-delete-s-nginx.png)
 
+##### Lalu, saya mengecek daftar service untuk memastikan service tersebut telah dihapus:
+
+```sh
+kubectl get service
+```
+
+![Delete Service NGINX](images/k-get-s-nginx.png)
+
+##### Kemudian, saya menghapus deployment:
+
+```sh
+kubectl delete deployment nginx
+```
+
+![Delete Service NGINX](images/delete-deployment.png)
+
+##### Dan mengecek kembali daftar deployment untuk memastikan tidak ada resource yang tersisa:
+
+```sh
+kubectl get deployment
+```
+
+![Delete Service NGINX](images/get-deployment.png)
+
+
+##### Demikian langkah-langkah untuk membuat, mengakses, dan menghapus deployment serta service di Kubernetes menggunakan Minikube. Ini adalah dasar yang baik untuk memulai eksplorasi lebih lanjut dalam dunia orkestrasi container. Saya harap ini bisa membantu teman-teman yang baru memulai dengan Kubernetes!
+
+##### #Kubernetes #Minikube #DevOps #ContainerOrchestration #Nginx #CloudComputing
