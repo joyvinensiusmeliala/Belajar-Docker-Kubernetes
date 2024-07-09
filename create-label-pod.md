@@ -49,3 +49,10 @@ kubectl create -f nginx-with-label.yaml
 ```sh
 kubectl get pods --show-labels
 ``` 
+
+### Langkah 4: Membuat Label pada POD secara manual
+
+```sh
+kubectl label pod <nama_pod> <label>
+kubectl label pod nginx environment=development
+``` 
