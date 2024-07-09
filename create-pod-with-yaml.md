@@ -11,8 +11,6 @@ mkdir ~/nginx
 cd ~/nginx
 ``` 
 
-<!-- ![Deskripsi Gambar](images/create-pod.png) -->
-
 ##### Kemudian, anda membuat file konfigurasi YAML untuk Pod Nginx:
 
 ```sh
@@ -42,7 +40,7 @@ spec:
 kubectl create -f nginx.yaml
 ``` 
 
-<!-- ![Deskripsi Gambar](images/k-expose.png) -->
+![Deskripsi Gambar](images/pod-with-yaml/create.png)
 
 ### Langkah 3: Mengecek Status Pod
 
@@ -52,6 +50,8 @@ kubectl create -f nginx.yaml
 kubectl get pod
 ``` 
 
+![Deskripsi Gambar](images/pod-with-yaml/get-pod.png)
+
 ##### Untuk melihat informasi lebih detail tentang Pod, saya menggunakan perintah berikut:
 
 ```sh
@@ -60,7 +60,7 @@ kubectl get pod -o wide
 
 ##### Hasilnya menunjukkan bahwa Pod sudah dalam status Running dan memberikan informasi IP serta node tempat Pod berjalan.
 
-<!-- ![Deskripsi Gambar](images/k-expose.png) -->
+![Deskripsi Gambar](images/pod-with-yaml/-o-wide.png)
 
 ### Langkah 4: Deskripsi Pod
 
@@ -70,6 +70,8 @@ kubectl get pod -o wide
 kubectl describe pod nginx-pod
 ``` 
 
+![Deskripsi Gambar](images/pod-with-yaml/describe.png)
+
 ### Langkah 5: Port-Forwarding untuk Mengakses Pod:
 
 ##### Untuk mengakses Nginx yang berjalan di dalam Pod dari mesin lokal, saya menggunakan fitur port-forwarding:
@@ -78,7 +80,11 @@ kubectl describe pod nginx-pod
 kubectl port-forward nginx-pod 8888:80
 ``` 
 
+![Deskripsi Gambar](images/pod-with-yaml/port-forward.png)
+
 ##### Dengan perintah ini, saya bisa mengakses server Nginx yang berjalan di dalam Pod melalui URL `http://localhost:8888`.
+
+![Deskripsi Gambar](images/pod-with-yaml/nginx.jpg)
 
 ##### Langkah-langkah di atas menunjukkan bagaimana membuat dan mengakses Pod di Kubernetes menggunakan Minikube. Ini adalah dasar yang baik untuk mulai mengelola aplikasi berbasis container di lingkungan orkestrasi Kubernetes.
 
