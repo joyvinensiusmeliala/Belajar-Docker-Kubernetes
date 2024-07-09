@@ -56,3 +56,10 @@ kubectl get pods --show-labels
 kubectl label pod <nama_pod> <label>
 kubectl label pod nginx environment=development
 ``` 
+
+##### update label
+
+```sh
+kubectl label pod <nama_pod> <label> --overwrite
+kubectl label pod nginx environment=development --overwrite
+``` 
