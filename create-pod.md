@@ -65,7 +65,15 @@ minikube service nginx --url
 http://192.168.49.2:31727
 ```
 
-![Deskripsi Gambar](images/nginx.jpg)
+![Service NGINX URL](images/nginx.jpg)
 
+### Langkah 5: Delete Service
 
+##### Delete service nginx
+
+```sh
+kubectl delete service nginx
+```
+
+![Delete Service NGINX](images/k-delete-s-nginx.png)
 
