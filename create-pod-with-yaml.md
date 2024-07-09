@@ -79,3 +79,7 @@ kubectl port-forward nginx-pod 8888:80
 ``` 
 
 ##### Dengan perintah ini, saya bisa mengakses server Nginx yang berjalan di dalam Pod melalui URL `http://localhost:8888`.
+
+##### Langkah-langkah di atas menunjukkan bagaimana membuat dan mengakses Pod di Kubernetes menggunakan Minikube. Ini adalah dasar yang baik untuk mulai mengelola aplikasi berbasis container di lingkungan orkestrasi Kubernetes.
+
+##### #Kubernetes #Minikube #DevOps #ContainerOrchestration #Nginx #CloudComputing
