@@ -86,6 +86,15 @@ kubectl port-forward nginx-pod 8888:80
 
 ![Deskripsi Gambar](images/pod-with-yaml/nginx.jpg)
 
+### Note :
+
+##### Untuk Melihat Container yang running pada satu pod 
+
+```sh
+kubectl get pods <nama-pod> -n <namespace> -o jsonpath='{.spec.containers[*].name}'
+kubectl get pods nginx-pod -n default -o jsonpath='{.spec.containers[*].name}'
+```
+
 ##### Langkah-langkah di atas menunjukkan bagaimana membuat dan mengakses Pod di Kubernetes menggunakan Minikube. Ini adalah dasar yang baik untuk mulai mengelola aplikasi berbasis container di lingkungan orkestrasi Kubernetes.
 
 ##### #Kubernetes #Minikube #DevOps #ContainerOrchestration #Nginx #CloudComputing
