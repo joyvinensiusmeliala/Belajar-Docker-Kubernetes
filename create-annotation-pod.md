@@ -62,6 +62,7 @@ kubectl describe pod nginx-with-annotation
 
 ### Langkah 4: Membuat Annotation pada POD secara manual
 
+
 ```sh
 kubectl annotate pod <nama_pod> <annotate>
 kubectl annotate pod nginx-with-label description="ini adalah aplikasi tim finance"
