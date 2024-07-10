@@ -30,7 +30,7 @@ spec:
         - containerPort: 80
       livenessProbe:
         httpGet:
-          path: /404
+          path: /
           port: 80
         initialDelaySeconds: 5
         periodSeconds: 5
@@ -55,13 +55,13 @@ kubectl create -f nginx-with-probe.yaml
 kubectl get pods 
 ``` 
 
-##### Untuk melihat detail Annotation pada POD
+##### Untuk melihat detail Probe pada POD
 
 ```sh
 kubectl describe pod nginx-with-probe
 ``` 
 
-##### Untuk melihat detail Annotation pada POD
+##### Untuk melihat detail Probe pada POD
 
 ```sh
 kubectl port-forward nginx-with-probe 8182:80
