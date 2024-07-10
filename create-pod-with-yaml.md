@@ -7,8 +7,8 @@
 ##### Pertama, anda dapat membuat direktori kerja dan beralih ke direktori tersebut:
 
 ```sh
-mkdir ~/nginx
-cd ~/nginx
+mkdir ~/example
+cd ~/example
 ``` 
 
 ##### Kemudian, anda membuat file konfigurasi YAML untuk Pod Nginx:
@@ -26,7 +26,7 @@ metadata:
   name: nginx-pod
 spec:
   containers:
-  - name: nginx-container
+  - name: nginx-container 
     image: nginx
     ports:
     - containerPort: 80
