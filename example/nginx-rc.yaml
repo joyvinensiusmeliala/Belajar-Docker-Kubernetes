@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: nginx-rc
+spec:
+  replicas: 3
+  selector:
+    app: nginx-finance
+  template:
+    metadata:
+      name: pod-nginx-finance
+      labels:
+        app: nginx-finance
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+            - containerPort: 80

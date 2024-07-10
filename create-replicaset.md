@@ -1,4 +1,4 @@
-### Membuat Repication Controller pada POD
+### Membuat Repication Set pada POD
 
 ### Langkah 1: Persiapan File YAML:
 
@@ -12,42 +12,43 @@ cd ~/example
 ##### Kemudian, anda membuat file konfigurasi YAML untuk Pod Nginx:
 
 ```sh
-nano nginx-rc.yaml
+nano nginx-rs.yaml
 ``` 
 
-##### Isi dari file `nginx-rc.yaml` adalah sebagai berikut:
+##### Isi dari file `nginx-rs.yaml` adalah sebagai berikut:
 
 ```sh
-apiVersion: v1
-kind: ReplicationController
+apiVersion: apps/v1
+kind: ReplicaSet
 metadata:
-  name: nginx-rc
+  name: nginx
 spec:
   replicas: 3
   selector:
-    app: nginx-finance
+    matchLabels:
+      app: nginx
   template:
     metadata:
-      name: pod-nginx-finance
+      name: pod-nginx
       labels:
-        app: nginx-finance
+        app: nginx
     spec:
       containers:
-        - name: nginx
-          image: nginx
-          ports:
-            - containerPort: 80
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
 ```
 
-## Langkah 2: Membuat Pod dari File YAML
+## Langkah 2: Membuat Replica Set dari File YAML
 
 ##### Selanjutnya, saya membuat Pod berdasarkan konfigurasi YAML yang telah dibuat:
 
 ```sh
-kubectl create -f nginx-rc.yaml
+kubectl create -f nginx-rs.yaml
 ``` 
 
-### Langkah 3: Mengecek Status Pod
+### Langkah 3: Mengecek Status Replica set
 
 ##### Setelah Pod dibuat, saya mengecek statusnya untuk memastikan bahwa Pod sudah berjalan dengan baik:
 
@@ -57,8 +58,9 @@ kubectl get replicaset
 kubectl get pods --selector=app=nginx
 ``` 
 
-### Langkah 3: Menghapus Replica Controller 
+### Menghapus Replica Set 
 
 ```sh
-kubectl delete replicacontroller nginx-rc --cascade=false
-``` 
+kubectl delete rs nginx
+```
+
