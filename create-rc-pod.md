@@ -5,8 +5,8 @@
 ##### Pertama, anda dapat membuat direktori kerja dan beralih ke direktori tersebut:
 
 ```sh
-mkdir ~/nginx
-cd ~/nginx
+mkdir ~/example
+cd ~/example
 ``` 
 
 ##### Kemudian, anda membuat file konfigurasi YAML untuk Pod Nginx:
@@ -52,5 +52,13 @@ kubectl create -f nginx-rc.yaml
 ##### Setelah Pod dibuat, saya mengecek statusnya untuk memastikan bahwa Pod sudah berjalan dengan baik:
 
 ```sh
-kubectl get pods 
+kubectl get pods
+kubectl get replicaset 
+kubectl get pods --selector=app=nginx
+``` 
+
+### Langkah 3: Menghapus Replica Controller 
+
+```sh
+kubectl delete replicacontroller nginx-rc --cascade=false
 ``` 

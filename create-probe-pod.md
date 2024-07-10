@@ -5,8 +5,8 @@
 ##### Pertama, anda dapat membuat direktori kerja dan beralih ke direktori tersebut:
 
 ```sh
-mkdir ~/nginx
-cd ~/nginx
+mkdir ~/example
+cd ~/example
 ``` 
 
 ##### Kemudian, anda membuat file konfigurasi YAML untuk Pod Nginx:
